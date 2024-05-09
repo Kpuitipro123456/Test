@@ -4,8 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--box-icons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--remix-icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia:wght@100..700&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+
+    
+
+	<!-- Import Boostrap css, js, font awesome here -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-    <h1>quan</h1>
+    <!--Header-->
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#" id="n1">TOP</a></li>
+                <li><a href="#about" id="n2">PROBLEM</a></li>
+                <li><a href="#solving" id="n3">SOLVING</a></li>
+                <li><a href="#gallery" id="n4">GALLERY</a></li>
+                <li><a href="#pricing-plan" id="n5">PLANS</a></li>
+                <li><a href="#review" id="n6">REVIEW</a></li>
+                <li><a href="#contact" id="n7">CONTACT</a></li>
+            </ul>
+
+            <!-- <div class="language">
+                <div class="language-selected">
+                    en-US
+                </div>
+                <ul>
+                    <li><a href="" class="en">English</a></li>
+                    <li><a href="" class="tw">Chinese</a></li>
+                </ul>
+            </div> -->
+            <div class="select-container">
+                <select class="box">
+                    <option value="en">English</option>
+                    <option value="tw">Taiwan</option>
+                </select>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Background-->
+    <div class="bg-cover"></div>
+
+    <!--Problem-->
+    <section id="about">
+        <div class="about-1">
+            <h1>Customer Paint Point</h1>
+        </div>
+        <div class="container">
+            <div class="about-2">
+                <div class="about-content">
+                    <h2>Do you feel steady at the moment...?</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="img/anonymous-code.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Solving-->
+    <section id="solving">
+        <div class="solving-section">
+            <div class="inner-container">
+                <h1>Problem Solving</h1>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Gallery-->
+    <section id="gallery">
+        <div class="gallery-1">
+            <h1>Gallery</h1>
+        </div>
+        <div class="gallery">
+            <div class="gallery-container">
+                <img class="gallery-item gallery-item-1" src="img/1.png.jpg" data-index="1">
+                <img class="gallery-item gallery-item-2" src="img/2.png.png" data-index="2">
+                <img class="gallery-item gallery-item-3" src="img/3.png.png" data-index="3">
+                <img class="gallery-item gallery-item-4" src="img/4.png.png" data-index="4">
+                <img class="gallery-item gallery-item-5" src="img/5.png.png" data-index="5">
+                <img class="gallery-item gallery-item-6" src="img/5.png.png" data-index="6">
+                <img class="gallery-item gallery-item-7" src="img/5.png.png" data-index="7">
+            </div>
+            
+            <div class="gallery-controls"></div>
+        </div>
+    </section>
+
+    <!--Pricing Plan-->
+    <section id="pricing-plan">
+        <div class="pricing-plan-1">
+            <h1>Pricing Plans</h1>
+            <p>Choose the perfect package for you</p>
+        </div>
+    <div class="pricing-plan-container">
+        <section class="pricing-plan pricing-plan-highlighted">
+            <div class="pricing-plan-header">
+                <h1 class="pricing-plan-title">Starter</h1>
+                <h2 class="pricing-plan-summary">For those getting started</h2>
+            </div>
+            <div class="pricing-plan-description">
+                <ul class="pricing-plan-list">
+                    <li class="pricing-plan-feature">Feature #1</li>
+                    <li class="pricing-plan-feature">Feature #2</li>
+                    <li class="pricing-plan-feature">Feature #3</li>
+                </ul>
+            </div>
+            <div class="pricing-plan-actions">
+                <p class="pricing-plan-cost">$68</p>
+                <p class="pricing-plan-text">per month</p>
+                <a href="https://www.facebook.com/caryln2611" class="pricing-plan-button">Subscribe</a>
+                <p class="pricing-plan-text">Minimum spen $816 over 12 months</p>
+            </div>
+        </section>
+
+        <section class="pricing-plan pricing-plan-highlighted">
+            <div class="pricing-plan-header">
+                <h1 class="pricing-plan-title">Basic</h1>
+                <h2 class="pricing-plan-summary">Upgrade with more features</h2>
+            </div>
+            <div class="pricing-plan-description">
+                <ul class="pricing-plan-list">
+                    <li class="pricing-plan-feature">Feature #1</li>
+                    <li class="pricing-plan-feature">Feature #2</li>
+                    <li class="pricing-plan-feature">Feature #3</li>
+                </ul>
+            </div>
+            <div class="pricing-plan-actions">
+                <p class="pricing-plan-cost">$100</p>
+                <p class="pricing-plan-text">per month</p>
+                <a href="https://www.facebook.com/caryln2611" class="pricing-plan-button">Subscribe</a>
+                <p class="pricing-plan-text">Minimum spen $1200 over 12 months</p>
+            </div>
+        </section>
+
+        <section class="pricing-plan pricing-plan-highlighted">
+            <div class="pricing-plan-header">
+                <h1 class="pricing-plan-title">Preminium</h1>
+                <h2 class="pricing-plan-summary">Enjoy powerful performance</h2>
+            </div>
+            <div class="pricing-plan-description">
+                <ul class="pricing-plan-list">
+                    <li class="pricing-plan-feature">Feature #1</li>
+                    <li class="pricing-plan-feature">Feature #2</li>
+                    <li class="pricing-plan-feature">Feature #3</li>
+                </ul>
+            </div>
+            <div class="pricing-plan-actions">
+                <p class="pricing-plan-cost">$200</p>
+                <p class="pricing-plan-text">per month</p>
+                <a href="https://www.facebook.com/caryln2611" class="pricing-plan-button">Subscribe</a>
+                <p class="pricing-plan-text">Minimum spen $2400 over 12 months</p>
+            </div>
+        </section>
+    </div>
+    </section>
+
+    <!--Review-->
+    <section id="review">
+        <div class="review">
+            <h1>Customer's Review</h1>
+        </div>
+        <div class="reviews">
+            <div class="review-inner">
+                <div class="review-border"></div>
+
+                <div class="review-row">
+                    <div class="review-col">
+                        <div class="review-1">
+                            <img src="img/1.jpg" alt="">
+                            <div class="review-name">Rabbit 1</div>
+                            <div class="review-stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="review-col">
+                        <div class="review-1">
+                            <img src="img/1.jpg" alt="">
+                            <div class="review-name">Rabbit 2</div>
+                            <div class="review-stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+
+                    <div class="review-col">
+                        <div class="review-1">
+                            <img src="img/1.jpg" alt="">
+                            <div class="review-name">Rabbit 3</div>
+                            <div class="review-stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact Us</h2>
+                </div>
+                <input type="hidden" name="access_key" value="e3735b29-c839-4f27-b5e9-86e3a8cf676c">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="img/google-gmail-logo-symbol-design-illustration-with-black-background-free-vector.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-container">
+            <div class="social-icon">
+                <a href="https://www.facebook.com/caryln2611"><i class="ri-facebook-box-fill"></i></a>
+                <a href="https://www.tiktok.com/@wojiaoge"><i class="ri-tiktok-fill"></i></a>
+                <a href="https://www.instagram.com/caca_3713/"><i class="ri-instagram-fill"></i></i></a>
+                <a href="https://twitter.com/ShakaVirgo13"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.youtube.com/channel/UC9twFjbzeWq5cMX_xJ2Nz-g"><i class="ri-youtube-fill"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Rabbit</span></p>
+        </div>
+    </section>
+
+    <script src="slide.js"></script>
+    <script src="language.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
 </body>
 </html>
